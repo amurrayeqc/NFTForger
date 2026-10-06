@@ -26,7 +26,7 @@ NFTForger is built to be simple and practical, focusing on doing one thing well.
 
 ## Installation
 
-1. Clone the repository: `git clone https://github.com/harutosati/NFTForger.git`
+1. Clone the repository: `git clone https://github.com/centxyz/NFTForger.git`
 2. Install required dependencies: `pip install -r requirements.txt`
 
 ## Configuration
@@ -42,4 +42,4 @@ Contributions are welcome and appreciated. Please submit pull requests and issue
 
 ## License
 
-Released under the MIT License — see the [LICENSE](https://github.com/harutosati/NFTForger/blob/main/LICENSE) file.
+Released under the MIT License — see the [LICENSE](https://github.com/centxyz/NFTForger/blob/main/LICENSE) file.
