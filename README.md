@@ -1,5 +1,7 @@
 # NFTForger
 
+[![CI](https://github.com/centxyz/NFTForger/actions/workflows/ci.yml/badge.svg)](https://github.com/centxyz/NFTForger/actions/workflows/ci.yml)
+
 NFTForger validates and packages NFT collections into deterministic ERC-721 metadata builds. It copies verified local media, emits one metadata document per token, creates a SHA-256 integrity manifest, and can later detect missing or modified files.
 
 It does not upload content, mint tokens, hold keys, or imply that generated metadata has market value.
