@@ -55,3 +55,9 @@ python -m unittest discover -v
 ## License
 
 MIT © cent
+
+## Current limitations
+
+- It packages and verifies local files but does not upload content, pin IPFS data, mint tokens, or manage keys.
+- A valid local manifest does not guarantee long-term media availability after deployment.
+- Users must review metadata, licensing, storage, and contract behavior independently.
