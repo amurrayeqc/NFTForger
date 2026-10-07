@@ -1,45 +1,26 @@
-<!-- fallback_NFTForger_20260901062104_11809 -->
-
 # NFTForger
 
-NFTForger is a distributed, real-time system for decentralized smart-contract-execution and blockchain-integration management.
+NFTForger is a minimal Python command-line starter. It currently validates the command-line path, configures logging, and completes a no-op processing cycle. It does not connect to a blockchain, database, or external API.
 
-NFTForger is built to be simple and practical, focusing on doing one thing well.
+## Requirements
 
-**Why NFTForger?**
+- Python 3.9 or newer
+- No third-party dependencies
 
-- NFTForger is a distributed, real-time
-- system for decentralized smart-contract-execution and
-- blockchain-integration management
+## Run
 
-## Key Features
+```bash
+git clone https://github.com/centxyz/NFTForger.git
+cd NFTForger
+python nftforger.py --verbose
+```
 
-- NFTForger is a distributed, real-time
-- system for decentralized smart-contract-execution and
-- blockchain-integration management
+## Test
 
-## Technology Stack
-
-- python
-- Modular architecture
-- CI-ready (GitHub Actions)
-
-## Installation
-
-1. Clone the repository: `git clone https://github.com/centxyz/NFTForger.git`
-2. Install required dependencies: `pip install -r requirements.txt`
-
-## Configuration
-
-To configure NFTForger, modify the settings in the configuration file. Options include:
-- **DEBUG**: Enable or disable debug mode.
-- **ALLOWED_HOSTS**: Set allowed hostnames.
-- **DATABASES**: Configure database settings.
-
-## Contributing
-
-Contributions are welcome and appreciated. Please submit pull requests and issues through the GitHub interface.
+```bash
+python -m unittest discover -v
+```
 
 ## License
 
-Released under the MIT License — see the [LICENSE](https://github.com/centxyz/NFTForger/blob/main/LICENSE) file.
+MIT
